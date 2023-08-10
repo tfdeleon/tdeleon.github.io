@@ -17,6 +17,7 @@ import {
 //   SiMaterialui,
   SiSocketdotio,
 } from "react-icons/si";
+import "../styles/Skills.css"
 
 export const Skills = () => {
   return (

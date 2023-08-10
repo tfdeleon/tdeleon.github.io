@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import github from "../assets/img/github.svg";
 import linkedIn from "../assets/img/linkedin.svg";
-
+import "../styles/Footer.css"
 export const Footer = () => {
   return (
     <footer className="footer">

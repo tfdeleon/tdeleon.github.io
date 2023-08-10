@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import github from "../assets/img/github.svg";
 import linkedIn from "../assets/img/linkedin.svg";
 import gitlab from "../assets/img/gitlab700.svg";
+import "../styles/NavBar.css"
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");

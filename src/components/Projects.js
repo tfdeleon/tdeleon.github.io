@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import overrated from "../assets/img/overrated.gif";
 import commonCrave from "../assets//img/commonCrave.gif"
 import { Footer } from "./Footer";
+import "../styles/Project.css"
 
 export const Projects = () => {
   const projects = [
