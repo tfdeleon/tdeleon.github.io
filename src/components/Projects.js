@@ -1,27 +1,27 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import overrated from "../assets/img/overrated.gif";
-import commonCrave from "../assets//img/commonCrave.gif"
+import Halfway from "../assets/img/halfway.jpg";
+import Astro from "../assets/img/Astro.jpg"
 import { Footer } from "./Footer";
 import "../styles/Project.css"
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Common Crave",
+      title: "Astro",
       description:
-        "A restaurant recommendation website where friends can create groups to find a restaurant sharing their common craving while accommodating everyone's location.",
-      imgUrl: commonCrave,
-      gitUrl: "https://commoncrave.com/",
-      technologies: "Node.js, Express.js, MongoDB, React, Redux, Tailwind, AWS, Nginx, Ubuntu"
+        "Developed  a Spaceship dealership management app, using Django, React, RESTful APIs, and PostgreSQL, enhancing operational efficiency and streamlining processes.",
+      imgUrl: Astro,
+      gitUrl: "https://gitlab.com/barrettAJ/astro",
+      technologies: "JavaScript, Python, Django, React, RESTful APIs, PostgreSQL,"
     },
     {
-      title: "Overrated",
+      title: "Type Halfway",
       description:
       "A dating web application where users can find their soulmate by weeding out bad seeds with the implementation of dating reviews",
-      imgUrl: overrated,
-      gitUrl: "https://github.com/yeseniaramirez14/overrated",
-      technologies: "FastAPI, PostgreSQL, React, Bootstrap"
+      imgUrl: Halfway,
+      gitUrl: "https://gitlab.com/barrettAJ/astro",
+      technologies: "FastAPI, PostgreSQL, React, Bootstrap, MaterialUI, "
     },
   ];
 

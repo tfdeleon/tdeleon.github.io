@@ -64,11 +64,12 @@ export const NavBar = () => {
               Projects
             </Nav.Link>
             <Nav.Link
-              href="#connect"
+              href="mailto:tfdeleon@buffalo.edu"
               className={
                 activeLink === "connect" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("active")}
+              m
             >
               Contact Me
             </Nav.Link>

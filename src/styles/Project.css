@@ -34,7 +34,7 @@
   }
   .proj-imgbx::before {
     content: "";
-    background: #5F4845;
+    background: #000000;
     opacity: 0.85;
     position: absolute;
     width: 100%;

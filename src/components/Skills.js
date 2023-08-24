@@ -27,7 +27,7 @@ export const Skills = () => {
           <Col >
             <div className="skill-bx">
               <hr className="divider"></hr>
-              <h2>&lt;Skills /&gt;</h2>
+              <h2>Skills</h2>
             </div>
           </Col>
         </Row>
