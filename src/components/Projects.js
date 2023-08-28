@@ -1,7 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import Halfway from "../assets/img/halfway.jpg";
-import Astro from "../assets/img/Astro.jpg"
+// import Astro from "../assets/img/Astro.jpg"
+import Astrogif from "../assets/img/astrogif.gif"
 import { Footer } from "./Footer";
 import "../styles/Project.css"
 
@@ -11,7 +12,7 @@ export const Projects = () => {
       title: "Astro",
       description:
         "Developed  a Spaceship dealership management app, using Django, React, RESTful APIs, and PostgreSQL, enhancing operational efficiency and streamlining processes.",
-      imgUrl: Astro,
+      imgUrl: Astrogif,
       gitUrl: "https://gitlab.com/barrettAJ/astro",
       technologies: "JavaScript, Python, Django, React, RESTful APIs, PostgreSQL,"
     },

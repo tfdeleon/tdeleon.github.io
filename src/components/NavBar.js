@@ -1,8 +1,8 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import github from "../assets/img/github.svg";
-import linkedIn from "../assets/img/linkedin.svg";
-import gitlab from "../assets/img/gitlab700.svg";
+import github from "../assets/img/icons8-github.svg";
+import linkedIn from "../assets/img/icons8-linkedin.svg";
+import gitlab from "../assets/img/icons8-github.svg";
 import "../styles/NavBar.css"
 
 export const NavBar = () => {
@@ -75,7 +75,15 @@ export const NavBar = () => {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
+
             <div className="social-icon">
+            <a
+                href="https://gitlab.com/tfdeleon"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={gitlab} alt="Git lab" />
+              </a>
               <a
                 href="https://www.linkedin.com/in/timothy-de-leon197/"
                 target="_blank"
@@ -89,13 +97,6 @@ export const NavBar = () => {
                 rel="noreferrer"
               >
                 <img src={github} alt="Github" />
-              </a>
-              <a
-                href="https://gitlab.com/tfdeleon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={gitlab} alt="Git lab" />
               </a>
             </div>
             <a href="https://docs.google.com/document/d/1ym_wFIN54__HvZurZtYFghMyk0PSTqZb49haB-eY0M0/">
